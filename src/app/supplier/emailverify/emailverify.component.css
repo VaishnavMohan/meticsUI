@@ -1,0 +1,155 @@
+.mediaViewInfo {
+	--web-view-name: Verification;
+	--web-view-id: Verification;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Verification;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.logo {
+	position: absolute;
+	width: 227px;
+	height: 66px;
+	left: 61px;
+	top: 43px;
+	overflow: visible;
+}
+
+.emailLogo{
+    position: absolute;
+    left : 1017px;
+    top: 252px;
+}
+
+#Verification {
+	position: absolute;
+	width: 1920px;
+	height: 1029px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Success.html;
+	cursor: pointer;
+	--web-view-name: Verification;
+	--web-view-id: Verification;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 152px;
+	left: 0px;
+	top: 0px;
+}
+#Asset_24x {
+	position: absolute;
+	width: 227px;
+	height: 66px;
+	left: 61px;
+	top: 43px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	fill: rgba(3,32,255,1);
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	height: 51px;
+	left: 113px;
+	top: 682px;
+}
+#Resend {
+	left: 147px;
+	top: 690px;
+	position: absolute;
+	overflow: visible;
+	width: 78px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Welcome_On_boardADMIN_NAME {
+	left: 113px;
+	top: 386px;
+	position: absolute;
+	overflow: visible;
+	width: 583px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(36,0,255,1);
+}
+#Please_verify_the_confirmation {
+	left: 113px;
+	top: 552px;
+	position: absolute;
+	overflow: visible;
+	width: 752px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#Asset_14x {
+	position: absolute;
+	width: 739px;
+	height: 644px;
+	left: 1017px;
+	top: 252px;
+	overflow: visible;
+}
+#We_are_really_excited_to_have_ {
+	left: 113px;
+	top: 466px;
+	position: absolute;
+	overflow: visible;
+	width: 737px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- <html> -->
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supplier Login</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="login.component.css"/>
+<!-- <script id="applicationScript" type="text/javascript" src="Supplier_Login.js"></script> -->
+</head>
+<!-- <body>
+	</body> -->
+	
+<div id="Supplier_Login">
+	<svg class="Rectangle_1">
+		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="152">
+		</rect>
+	</svg>
+    <img class="logo" src="./assets/Logo/logo.png">
+	<!-- <img id="Asset_24x" src="./assets/Logo/logo.png" srcset="logo.png 1x, logo2x.png 2x"> -->
+
+		
+	<svg class="Rectangle_5_r">
+		<linearGradient id="Rectangle_5_r" spreadMethod="pad" x1="-0.048" x2="0.871" y1="0.313" y2="1">
+			<stop offset="0" stop-color="#ff0808" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#800404" stop-opacity="1"></stop>
+		</linearGradient>
+		<rect id="Rectangle_5_r" rx="0" ry="0" x="0" y="0" width="1074" height="883">
+		</rect>
+		
+	</svg>
+	<!-- <div class="row" *ngIf="!authService.token"> -->
+    <form [formGroup]="loginSupplier" (ngSubmit)="userLogin()">
+        <div id="Supplier_Portal">
+		<span>Supplier Portal</span>
+		</div>
+        <div class="form-group" id="Username" >
+          <input type="text" class="form-control" formControlName="email" [(ngModel)]="user.email" placeholder="email"  name="login-email" required>
+		  <span *ngFor="let error of authService.errors.email" > <br/> 
+		{{error}}
+		</span>
+        </div>
+        <div id="Password" class="form-group">
+          <input type="password" class="form-control" formControlName="password" placeholder="Password" name="login-password" required>
+		  <span *ngFor="let error of authService.errors.password" > <br/> 
+			{{error}}
+			</span>
+        </div>
+      <!-- <div id="Login"> -->
+          <button class="Login" type="submit">Login</button>
+		  <!-- <div class="col-sm-12">
+			<span *ngFor="let error of authService.errors.non_field_errors">{{ error }}<br /></span>
+		  </div> -->
+        <!-- </div> -->
+		<div class="row" *ngIf="authService.token">
+			<div class="col-sm-12">You are logged in as {{ authService.email }}.<br />
+			  Token Expires: {{ authService.token_expires }}<br />
+			  <button (click)="refreshToken()" class="btn btn-primary">Refresh Token</button>
+			  <button (click)="logout()" class="btn btn-primary">Log Out</button>
+			</div>
+        <div class="Icon_awesome-check-square">
+            <label>
+                <input type="checkbox" checked="checked" name="remember">
+            </label>
+        </div>
+        <div id="Keep_Me_Signed_in">
+            <span>Keep Me Signed in</span>
+        </div>
+        <div id="Forgot_password">
+            <span>Forgot password?</span>
+        </div>
+        <div id="Forgot_username">
+            <span>Forgot username?</span>
+        </div>
+      <!-- </form> -->
+	</div>
+</form>
+	<div id="Register_as_new_Supplier____Co">
+		<a routerLink="/registration"><span>Register as new Supplier </span>
+		</a>
+			<span style="color:rgba(128,127,131,1);"> |</span><span>  Contact Sales </span>
+	</div>
+	<div id="Privacy_Policy__Terms_and_Cond">
+		<span>Privacy Policy</span><span style="color:rgba(2,2,2,1);"> | </span><span>Terms and Conditions </span>
+	</div>
+	<div id="Metics_Features_Will_be_displa">
+		<!-- <span>Metics Features Will be<br/>displayed here as carousel</span> -->
+	</div>
+</div>
+<!-- </html> -->
