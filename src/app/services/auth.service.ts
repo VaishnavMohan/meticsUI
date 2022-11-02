@@ -23,6 +23,10 @@ public errors: any = [];
 
   api_url: string = 'http://metics.us:8000/login/'
 
+  api_url2: string = 'http://metics.us:8000/organisations'
+
+  api_url3: string = 'http://metics.us:8000/register/'
+
   constructor(private http: HttpClient) { 
     this.httpOptions = { 
       Headers: new HttpHeaders({'Content-Type': 'application/json' }) }
@@ -31,6 +35,14 @@ public errors: any = [];
   loginUser(data){
     // console.warn("service",data)
     return this.http.post(this.api_url, data)
+  }
+
+  OrganisationUser(data){
+    return this.http.post(this.api_url2,data)
+  }
+
+  RegUser1(data){
+    return this.http.post(this.api_url3,data)
   }
 
 // login(username: string, password: string){
@@ -46,16 +58,16 @@ public errors: any = [];
   
 // }
 
-public login(user){
-  this.http.post('http://metics.us:8000/login/', JSON.parse(user), this.httpOptions).subscribe(
-    data => {
-      this.updateData(data['token']);
-    },
-    err => {
-      this.errors = err['error'];
-    }
-  );
-}
+// public login(user){
+//   this.http.post('http://metics.us:8000/login/', JSON.parse(user), this.httpOptions).subscribe(
+//     data => {
+//       this.updateData(data['token']);
+//     },
+//     err => {
+//       this.errors = err['error'];
+//     }
+//   );
+// }
 
 public refreshToken() {
   this.http.post('/api-token-refresh/', JSON.stringify({token: this.token}), this.httpOptions).subscribe(

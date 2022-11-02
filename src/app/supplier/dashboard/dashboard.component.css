@@ -1,0 +1,749 @@
+.mediaViewInfo {
+	--web-view-name: Metics Dashboard;
+	--web-view-id: Metics_Dashboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Metics_Dashboard;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+/* #Metics_Dashboard {
+	position: absolute;
+	width: 1920px;
+	height: 800px/\;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Metics Dashboard;
+	--web-view-id: Metics_Dashboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+} */
+#Rectangle_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 152px;
+	left: 0px;
+	top: 0px;
+}
+#Asset_24x {
+	position: absolute;
+	width: 227px;
+	height: 66px;
+	left: 61px;
+	top: 43px;
+	overflow: visible;
+}
+#Rectangle_25 {
+	fill: rgba(245,237,237,1);
+}
+.Rectangle_25 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 877px;
+	left: 0px;
+	top: 152px;
+}
+#Rectangle_26 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_26 {
+	width: 83px;
+	height: 1920px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,918.5,-766.5) rotate(90deg);
+	transform-origin: center;
+}
+#Ellipse_4 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	height: 95px;
+	left: 1783px;
+	top: 29px;
+}
+#Icon_awesome-user-circle {
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-user-circle {
+	overflow: visible;
+	position: absolute;
+	width: 34.875px;
+	height: 34.875px;
+	left: 1813.063px;
+	top: 59.063px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Dashboard {
+	left: 52px;
+	top: 176px;
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(49,0,255,1);
+}
+#Rectangle_27 {
+	fill: rgba(0,69,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_27 {
+	position: absolute;
+	overflow: visible;
+	width: 1694px;
+	height: 83px;
+	left: 226px;
+	top: 153px;
+}
+#Leads {
+	left: 298px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Finances {
+	left: 494px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Products {
+	left: 704px;
+	top: 176px;
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Requests {
+	left: 907px;
+	top: 177.5px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Invoice {
+	left: 1117px;
+	top: 178px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Settings {
+	left: 1783px;
+	top: 175px;
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 2px;
+	height: 82px;
+	left: 438.5px;
+	top: 153.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 2px;
+	height: 82px;
+	left: 648.5px;
+	top: 152px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 2px;
+	height: 82px;
+	left: 858.5px;
+	top: 152.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 2px;
+	height: 82px;
+	left: 1061.5px;
+	top: 154px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_6 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_6 {
+	overflow: visible;
+	position: absolute;
+	width: 2px;
+	height: 82px;
+	left: 1260.5px;
+	top: 154.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_28 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_28 {
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	height: 265px;
+	left: 18px;
+	top: 276px;
+}
+#Rectangle_30 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_30 {
+	position: absolute;
+	overflow: visible;
+	width: 574px;
+	height: 696px;
+	left: 673px;
+	top: 276px;
+}
+#Rectangle_29 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_29 {
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	height: 404px;
+	left: 18px;
+	top: 568px;
+}
+#Total_Sales {
+	left: 43px;
+	top: 319px;
+	position: absolute;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#n_022 {
+	left: 509px;
+	top: 320px;
+	position: absolute;
+	overflow: visible;
+	width: 68px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#Orders {
+	left: 57px;
+	top: 611px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#New_Requests {
+	left: 695px;
+	top: 320px;
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#n_00000 {
+	left: 53px;
+	top: 399px;
+	position: absolute;
+	overflow: visible;
+	width: 263px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 61px;
+	color: rgba(33,186,80,1);
+}
+#This_Month {
+	left: 430px;
+	top: 612px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_32 {
+	fill: rgba(5,101,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_32 {
+	position: absolute;
+	overflow: visible;
+	width: 174px;
+	height: 212px;
+	left: 46px;
+	top: 698px;
+}
+#Rectangle_33 {
+	fill: rgba(28,56,101,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_33 {
+	position: absolute;
+	overflow: visible;
+	width: 174px;
+	height: 212px;
+	left: 236px;
+	top: 698px;
+}
+#Rectangle_34 {
+	fill: rgba(232,138,10,1);
+}
+.Rectangle_34 {
+	position: absolute;
+	overflow: visible;
+	width: 174px;
+	height: 212px;
+	left: 426px;
+	top: 698px;
+}
+#New_ {
+	left: 73px;
+	top: 731px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+#Pending {
+	left: 259px;
+	top: 729px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Completed {
+	left: 447px;
+	top: 729px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#n_0 {
+	left: 73px;
+	top: 771px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 69px;
+	color: rgba(255,255,255,1);
+}
+#n_7 {
+	left: 259px;
+	top: 775px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 66px;
+	color: rgba(255,255,255,1);
+}
+#n_9 {
+	left: 447px;
+	top: 773px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 66px;
+	color: rgba(255,255,255,1);
+}
+#Line_7 {
+	fill: transparent;
+	stroke: rgba(171,199,201,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_7 {
+	overflow: visible;
+	position: absolute;
+	width: 10px;
+	height: 512px;
+	left: 1225.5px;
+	top: 408.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_8 {
+	fill: transparent;
+	stroke: rgba(5,5,5,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_8 {
+	overflow: visible;
+	position: absolute;
+	width: 10px;
+	height: 209.5px;
+	left: 1225.5px;
+	top: 414.75px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_35 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_35 {
+	position: absolute;
+	overflow: visible;
+	width: 529px;
+	height: 510px;
+	left: 679px;
+	top: 409px;
+}
+#R0012B {
+	left: 704px;
+	top: 428px;
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	color: rgba(0,0,0,1);
+}
+#DARWISH_Industries_LTD {
+	left: 704px;
+	top: 522px;
+	position: absolute;
+	overflow: visible;
+	width: 315px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	color: rgba(0,0,0,1);
+}
+#n_8042022 {
+	left: 1033px;
+	top: 428px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	color: rgba(0,0,0,1);
+}
+#n_0042022 {
+	left: 704px;
+	top: 821px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	color: rgba(0,0,0,1);
+}
+#n_000_Boxes_of_A4_Sheets_with_ {
+	left: 705px;
+	top: 674px;
+	position: absolute;
+	overflow: visible;
+	width: 402px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(0,0,0,1);
+}
+#DohaQatar {
+	left: 704px;
+	top: 566px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(0,0,0,1);
+}
+#Deadline {
+	left: 704px;
+	top: 779px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(150,145,145,1);
+}
+#Requested_By {
+	left: 704px;
+	top: 482px;
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(162,140,140,1);
+}
+#Requirement {
+	left: 706px;
+	top: 632px;
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(157,116,116,1);
+}
+#Rectangle_31 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_31 {
+	position: absolute;
+	overflow: visible;
+	width: 598px;
+	height: 700px;
+	left: 1284px;
+	top: 272px;
+}

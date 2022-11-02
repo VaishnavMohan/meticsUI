@@ -179,6 +179,76 @@ input[type=text], input[type=password] {
 	font-size: 18px;
 	color: rgba(0,0,0,1);
 }
+#pcity {
+	left: 88px;
+	top: 845px;
+	position: absolute;
+	overflow: visible;
+	width: 413px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#qcountry {
+	left: 569px;
+	top: 845px;
+	position: absolute;
+	overflow: visible;
+	width: 413px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#pzipcode {
+	left: 88px;
+	top: 925px;
+	position: absolute;
+	overflow: visible;
+	width: 413px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#qusername {
+	left: 569px;
+	top: 925px;
+	position: absolute;
+	overflow: visible;
+	width: 413px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#pmiddle {
+	left: 88px;
+	top: 1045px;
+	position: absolute;
+	overflow: visible;
+	width: 413px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
 #Re-enter_Password {
 	left: 569px;
 	top: 765px;

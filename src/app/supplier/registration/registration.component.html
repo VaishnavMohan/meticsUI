@@ -9,15 +9,15 @@
 <!-- <script id="applicationScript" type="text/javascript" src="Supplier_Registration___1.js"></script> -->
 </head>
 <body>
-<div id="Supplier_Registration_-_1">
-	<svg class="Rectangle_1">
+<div>
+	<!-- <svg class="Rectangle_1">
 		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="152">
 		</rect>
 	</svg>
 	<svg class="Rectangle_16">
 		<rect id="Rectangle_16" rx="20" ry="20" x="0" y="0" width="754" height="532">
 		</rect>
-	</svg>
+	</svg> -->
     <img class="logo" src="./assets/Logo/logo.png">
 	<div id="Create_your_company_account">
 		<span>Create your company account</span>
@@ -27,6 +27,8 @@
 	<div id="Organisation_Details">
 		<span>Organisation Details</span>
 	</div>
+
+	<form [formGroup]="Orgsupplier" (ngSubmit)="orgLogin()">
 	<div id="Company_Name">
 		<span> Company Name </span><br>
 		<input type="text"  name="Company Name" required>
@@ -34,28 +36,28 @@
 	</div>
 	<div id="CountryRegion">
 		<span>Country/Region</span><br>
-		<input type="text"  name="CountryRegion" required>
+		<input type="text" class="form-control" name="CountryRegion" required>
 	</div>
 	<div id="Address_Line_1">
 		<span>Address Line 1</span>,<br>
-		<input type="text"  name="adress1" required>
+		<input type="text" class="form-control" name="adress1" required>
 	</div>
 	<div id="Address_Line_2_">
 		<span>Address Line 2</span><br/>
-		<input type="text"  name="adress2" required>
+		<input type="text" class="form-control" name="adress2" required>
 	</div>
 	<div id="City">
 		<span>City</span><br>
-		<input type="text"  name="City" required>
+		<input type="text" class="form-control" name="City" required>
 		
 	</div>
 	<div id="State">
 		<span>State</span><br>
-		<input type="text"  name="State" required>
+		<input type="text"class="form-control"  name="State" required>
 	</div>
 	<div id="ZIPPostal_Code">
 		<span>ZIP/Postal Code</span><br>
-		<input type="text"  name="Postal" required>
+		<input type="text" class="form-control"  name="Postal" required>
 		
 	</div> 
 	<div class="product">
@@ -68,15 +70,15 @@
 	</div>
 	<div id="Area_of_ServiceShipping_Locati">
 		<span>Area of Service/Shipping Location</span><br>
-		<input type="text" name="Area" required>
+		<input type="text" class="form-control" name="Area" required>
 	</div>
 	<div id="Total_Turnover">
 		<span>Total Turnover</span><br>
-		<input type="text"  name="Total_Turnover" required>
+		<input type="text" class="form-control" name="Total_Turnover" required>
 	</div>
 	<div id="Number_of_Employees">
 		<span>Number of Employees</span><br>
-		<input type="text"  name="Employees" required>
+		<input type="text" class="form-control" name="Employees" required>
 
 	</div>
 	<!--svg class="Rectangle_7">
@@ -133,13 +135,14 @@
 	</svg> -->
 	
 	<div>
-	<a routerLink="/login2">	<button id="Next">Next</button>
-</a>
+ <button id="Next" type="submit">Next</button>
+
 	</div>
-	<svg class="Line_1" viewBox="0 0 1 570">
+</form>
+	<!-- <svg class="Line_1" viewBox="0 0 1 570">
 		<path id="Line_1" d="M 0 0 L 0 570">
 		</path>
-	</svg>
+	</svg> -->
 </div>
 </body>
 </html>

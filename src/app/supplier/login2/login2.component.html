@@ -20,6 +20,7 @@
 	<div id="Administration_Details">
 		<span>Administration Details</span>
 	</div>
+	<form [formGroup]="regsupplier" (ngSubmit)="registrationUser()"></form>
 	<div id="First_Name">
 		<span>First Name</span><br>
 		<input type="text" class="form-control" placeholder="First Name" required>
@@ -48,15 +49,35 @@
 		<span>Re-enter Password</span><br>
 		<input type="password" class="form-control" placeholder="password" required>
 	</div>
+	<div id="pcity">
+		<span>city</span><br>
+		<input type="text" class="form-control" placeholder="city" required>
+	</div>
+	<div id="qcountry">
+		<span>Country</span><br>
+		<input type="text" class="form-control" placeholder="country" required>
+	</div>
+	<div id="pzipcode">
+		<span>Zipcode</span><br>
+		<input type="text" class="form-control" placeholder="zipcode" required>
+	</div>
+	<div id="qusername">
+		<span>Username</span><br>
+		<input type="text" class="form-control" placeholder="username" required>
+	</div>
+	<div id="pmiddle">
+		<span>Middle Name</span><br>
+		<input type="text" class="form-control" placeholder="middlename" required>
+	</div>
 	<div id="I_have_read_and_agree_with_the">
 		<span>I have read and agree with the Terms of Use</span>
 	</div>
-	<svg class="Rectangle_15">
+	<!-- <svg class="Rectangle_15">
 		<rect onclick="application.goToTargetView(event)" id="Rectangle_15" rx="0" ry="0" x="0" y="0" width="154" height="51">
 		</rect>
-	</svg>
+	</svg> -->
 	<div>
-		<a routerLink="/emailverify"> <span class="login" type="submit">Submit</span> </a>
+		<a > <span class="login" type="submit">Submit</span> </a>
 	</div>
 	<div id="Add">
 		<span>Add</span>

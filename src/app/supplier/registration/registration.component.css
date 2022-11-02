@@ -8,8 +8,8 @@
 	--web-view-ids: Supplier_Registration_-_1;
 }
 * {
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 	box-sizing: border-box;
 	border: none;
 }
@@ -33,7 +33,7 @@ input[type=text], input[type=password] {
 	overflow: visible;
 }
 
-#Supplier_Registration_-_1 {
+/* #Supplier_Registration_-_1 {
 	position: absolute;
 	width: 1920px;
 	height: 1029px;
@@ -43,7 +43,7 @@ input[type=text], input[type=password] {
 	--web-view-id: Supplier_Registration_-_1;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
-}
+} */
 @keyframes fadein {
 
 	0% {
@@ -552,4 +552,560 @@ input[type=text], input[type=password] {
 	height: 532px;
 	left: 1080px;
 	top: 353px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 1000px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+
+	.span {
+		font-size: 18px;
+		line-height: 60px;
+	}
+	input[type=text], input[type=password] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	  }
+	  
+	
+	.logo {
+		position: absolute;
+		width: 187px;
+		height: 56px;
+		left: 61px;
+		top: 43px;
+		overflow: visible;
+	}
+	
+	#Supplier_Registration_-_1 {
+		position: absolute;
+		width: 1920px;
+		height: 1029px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Supplier Registration - 1;
+		--web-view-id: Supplier_Registration_-_1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Rectangle_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 152px;
+		left: 0px;
+		top: 0px;
+	}
+	#Asset_24x {
+		position: absolute;
+		width: 227px;
+		height: 66px;
+		left: 61px;
+		top: 43px;
+		overflow: visible;
+	}
+	#Create_your_company_account {
+		left: 58px;
+		top: 200px;
+		position: absolute;
+		overflow: visible;
+		width: 463px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(36,0,255,1);
+	}
+	#Company_Name {
+		left: 88px;
+		top: 357px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgb(0, 0, 0);
+	}
+	.product {
+		left: 1124px;
+		top: 407px;
+		position: absolute;
+		overflow: visible;
+		width: 537px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgb(0, 0, 0);
+	}
+	#Product_or_Service_Category {
+		left: 1124px;
+		top: 407px;
+		position: absolute;
+		overflow: visible;
+		width: 537px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgb(0, 0, 0);
+	}
+	#Organisation_Details {
+		left: 88px;
+		top: 295px;
+		position: absolute;
+		overflow: visible;
+		width: 251px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(0,0,0,1);
+	}
+	#CountryRegion {
+		left: 88px;
+		top: 457px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(11,11,11,1);
+	}
+	#Area_of_ServiceShipping_Locati {
+		left: 1124px;
+		top: 509px;
+		position: absolute;
+		overflow: visible;
+		width: 672px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Address_Line_1 {
+		left: 88px;
+		top: 568px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Address_Line_2_ {
+		left: 88px;
+		top: 663px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Total_Turnover {
+		left: 1124px;
+		top: 618px;
+		position: absolute;
+		overflow: visible;
+		width: 672px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Number_of_Employees {
+		left: 1124px;
+		top: 727px;
+		position: absolute;
+		overflow: visible;
+		width: 672px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	
+	#City {
+		left: 86px;
+		top: 760px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#State {
+		left: 88px;
+		top: 860px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(2,2,2,1);
+	}
+	#ZIPPostal_Code {
+		left: 88px;
+		top: 960px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_7 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 52px;
+		left: 88px;
+		top: 389px;
+	}
+	#Rectangle_17 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 530px;
+		height: 52px;
+		left: 1124px;
+		top: 439px;
+	}
+	#Rectangle_9 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 52px;
+		left: 88px;
+		top: 498px;
+	}
+	#Rectangle_18 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_18 {
+		position: absolute;
+		overflow: visible;
+		width: 672px;
+		height: 52px;
+		left: 1124px;
+		top: 541px;
+	}
+	#Rectangle_10 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_10 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 52px;
+		left: 88px;
+		top: 600px;
+	}
+	#Rectangle_19 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_19 {
+		position: absolute;
+		overflow: visible;
+		width: 672px;
+		height: 52px;
+		left: 1124px;
+		top: 650px;
+	}
+	#Rectangle_22 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_22 {
+		position: absolute;
+		overflow: visible;
+		width: 672px;
+		height: 52px;
+		left: 1124px;
+		top: 759px;
+	}
+	#Rectangle_11 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_11 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 52px;
+		left: 559px;
+		top: 600px;
+	}
+	#Rectangle_12 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_12 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 52px;
+		left: 86px;
+		top: 695px;
+	}
+	#Rectangle_13 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_13 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 52px;
+		left: 88px;
+		top: 797px;
+	}
+	#Rectangle_14 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_14 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 52px;
+		left: 569px;
+		top: 797px;
+	}
+	#Rectangle_15 {
+		fill: rgba(3,32,255,1);
+	}
+	.Rectangle_15 {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 51px;
+		left: 1697px;
+		top: 929px;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: Supplier_Registration___Adminstrator_Account.html;
+		cursor: pointer;
+	}
+	#Rectangle_23 {
+		fill: rgba(201,17,24,1);
+	}
+	.Rectangle_23 {
+		position: absolute;
+		overflow: visible;
+		width: 122px;
+		height: 50px;
+		left: 1681px;
+		top: 441px;
+	}
+	#Next {
+		left: 1742px;
+		top: 935px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+		background-color: blue;
+	}
+	.Add {
+		left: 1712px;
+		top: 447px;
+		position: absolute;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+		background-color: rgb(186, 11, 11);
+	}
+	#Line_1 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_1 {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: 570px;
+		left: 1018px;
+		top: 321.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_16 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_16 {
+		position: absolute;
+		overflow: visible;
+		width: 754px;
+		height: 532px;
+		left: 1080px;
+		top: 353px;
+	}
 }

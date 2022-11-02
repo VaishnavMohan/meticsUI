@@ -13,7 +13,17 @@
 	box-sizing: border-box;
 	border: none;
 }
-#Supplier_Login {
+@keyframes fadein {
+	
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+	
+}
+/* #Supplier_Login {
 	position: absolute;
 	width: 1920px;
 	height: 1035px;
@@ -23,17 +33,55 @@
 	--web-view-id: Supplier_Login;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
-}
-@keyframes fadein {
+} */
 
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+.v1_10 {
+	width: 100%;
+	height: 148px;
+	/* background: url("../images/v1_10.png"); */
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+  }
+  .v1_11 {
+	width: 100px;
+	color: rgb(0, 0, 0);
+	position: absolute;
+	top: 512px;
+	left: 166px;
+	font-family: Inter;
+	font-weight: Regular;
+	font-size: 20px;
+	opacity: 1;
+	text-align: left;
+  }
+  .v1_6 {
+	width: 227px;
+	height: 66px;
+	/* background: url("./assets/Logo/logo.png"); */
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 46px;
+	left: 69px;
+	overflow: hidden;
+  }
+  .v4_3 {
+	background-color:rgb(233, 18, 18);
+	width:805px;
+	height:876px;
+	position:absolute;
+	left:635px;
+	top:148px;
+  }
 
-}
 #Rectangle_1 {
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
@@ -84,7 +132,7 @@
 	width: 227px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: CreatoDisplay-Black;
+	font-family: 'Inter';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
@@ -176,7 +224,7 @@
 	font-weight: normal;
 	font-size: 24px;
 	color: rgba(255,255,255,1);
-    /* color: rgba(36,0,255,1); */
+
 }
 #Forgot_password {
 	left: 200px;
@@ -342,7 +390,7 @@ form {
   }
   
   /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 600px) {
     span.psw {
       display: block;
       float: none;
@@ -350,4 +398,328 @@ form {
     .cancelbtn {
       width: 100%;
     }
+
+	.span {
+		font-size: 18px;
+		line-height: 60px;
+	}
+	#Supplier_Login {
+		position: absolute;
+		width: 500px;
+		height: 200px;
+		background-color: rgba(255,255,255,1);
+		/* overflow: hidden; */
+		--web-view-name: Supplier Login;
+		--web-view-id: Supplier_Login;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 200px;
+		height: 152px;
+		left: 0px;
+		top: 0px;
+	}
+	.logo {
+		position: absolute;
+		width: 227px;
+		height: 66px;
+		left: 61px;
+		top: 43px;
+		overflow: visible;
+	}
+	#Rectangle_5_r {
+		fill: url(#Rectangle_5_r);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		width: 100px;
+		height: 100px;
+	}
+	.Rectangle_5_r {
+		position: absolute;
+		overflow: visible;
+		width: 1074px;
+		height: 883px;
+		left: 846px;
+		top: 152px;
+	}
+	#Supplier_Portal {
+		left: 78px;
+		top: 374px;
+		position: absolute;
+		overflow: visible;
+		width: 227px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: CreatoDisplay-Black;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(36,0,255,1);
+	}
+	#Username {
+		left: 78px;
+		top: 437px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(114,111,129,1);
+	}
+	#Password {
+		left: 78px;
+		top: 520px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(113,111,128,1);
+	}
+	#Rectangle_6 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 66px;
+		left: 180px;
+		top: 507px;
+	}
+	#Rectangle_7 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 413px;
+		height: 68px;
+		left: 181px;
+		top: 423px;
+	}
+	#Rectangle_8 {
+		fill: rgb(210, 187, 187);
+	}
+	.Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 206px;
+		height: 70px;
+		left: 387px;
+		top: 664px;
+	}
+	.Login {
+		left: 314px;
+		top: 665px;
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	
+	}
+	#Forgot_password {
+		left: 200px;
+		top: 672px;
+		position: absolute;
+		overflow: visible;
+		width: 158px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(126,119,168,1);
+	}
+	#Forgot_username {
+		left: 200px;
+		top: 701px;
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(126,119,168,1);
+	}
+	#Keep_Me_Signed_in {
+		left: 200px;
+		top: 591px;
+		position: absolute;
+		overflow: visible;
+		width: 187px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(126,119,168,1);
+	}
+	#Icon_awesome-check-square {
+		fill: rgba(175,20,0,1);
+	}
+	.Icon_awesome-check-square {
+		overflow: visible;
+		position: absolute;
+		width: 20.107px;
+		height: 20.107px;
+		left: 573.893px;
+		top: 597.893px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Register_as_new_Supplier____Co {
+		left: 131px;
+		top: 929px;
+		position: absolute;
+		overflow: visible;
+		width: 367px;
+		white-space: nowrap;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: Supplier_Registration___1.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(36,0,255,1);
+	}
+	#Privacy_Policy__Terms_and_Cond {
+		left: 21px;
+		top: 1090px;
+		position: absolute;
+		overflow: visible;
+		width: 249px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(85,124,255,1);
+	}
+	#Metics_Features_Will_be_displa {
+		left: 1082px;
+		top: 535px;
+		position: absolute;
+		overflow: visible;
+		width: 521px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+	form {
+	  border: 3px solid #f1f1f1;
+	}
+	
+	/* Full-width inputs */
+	input[type=text], input[type=password] {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  box-sizing: border-box;
+	}
+	
+	/* Set a style for all buttons */
+	button {
+	  /* background-color: #0f04aa; */
+	  background-color: rgba(36,0,255,1);
+	  color: white;
+	  padding: 10px 40px;
+	  margin: 12px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	}
+	
+	/* Add a hover effect for buttons */
+	button:hover {
+	  opacity: 0.8;
+	}
+	
+	/* Extra style for the cancel button (red) */
+	.cancelbtn {
+	  width: auto;
+	  padding: 10px 18px;
+	  background-color: #f44336;
+	}
+	
+	/* Center the avatar image inside this container */
+	.imgcontainer {
+	  text-align: center;
+	  margin: 24px 0 12px 0;
+	}
+	
+	/* Avatar image */
+	img.avatar {
+	  width: 40%;
+	  border-radius: 50%;
+	}
+	
+	/* Add padding to containers */
+	.container {
+	  padding: 16px;
+	}
+	
+	/* The "Forgot password" text */
+	span.psw {
+	  float: right;
+	  padding-top: 16px;
+	}
   }
+
+  
